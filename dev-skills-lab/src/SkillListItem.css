@@ -1,0 +1,19 @@
+.border-box {
+    border: .3rem solid red;
+    border-radius: 7%;
+    margin: .5rem;
+    padding: 0.2rem 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    text-align: center;
+    align-items: center;
+}
+
+.level {
+    margin-left: 5rem;
+    padding: 0.3rem 0.8rem;
+    color: white;
+    background-color: teal;
+    border-radius: 0.8rem;
+}
