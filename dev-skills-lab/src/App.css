@@ -6,7 +6,8 @@
 }
 
 .color-text {
-  color: darkblue;
+  color: teal;
+  font-weight: bold;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

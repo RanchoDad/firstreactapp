@@ -3,10 +3,10 @@ export default function NewSkillForm(){
     return (
         <>
         <form className="NewSkillForm">
-            <label>Skills: 
+            <label>Skills 
                 <input type="text" />
             </label>
-            <label>Level:
+            <label>Level
                 <select>
                     <option value="1">1</option>
                     <option value="2">2</option>
