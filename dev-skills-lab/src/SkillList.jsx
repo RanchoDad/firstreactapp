@@ -5,7 +5,7 @@ export default function SkillList(props){
         <>
             <ul>
                 {props.skills.map((skill, idx) => {
-                    return<SkillListItem name={skill.name} level={skill.level} key={idx} index={idx}/>
+                    return<SkillListItem bingo={skill.bingo} level={skill.level} key={idx} index={idx}/>
                 })}
             </ul>
         </>

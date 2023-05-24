@@ -6,17 +6,20 @@ import { useState } from 'react';
 
 function App() {
   const [skills, setSkills] = useState([
-    { name: "HTML", level: 5 },
-    { name: "CSS", level: 3 },
-    { name: "JavaScript", level: 4 },
-    { name: "Python", level: 2 },
+    { bingo: "HTML", level: 5 },
+    { bingo: "CSS", level: 3 },
+    { bingo: "JavaScript", level: 4 },
+    { bingo: "Python", level: 2 },
   ])
+  const addSkill = (newSkill) => {
+    setSkills([...skills, newSkill])
+  }
   return (
     <div className="App color-text">
       <h1>React Dev Skills</h1>
       <SkillList skills = {skills} />    
       <hr />
-      <NewSkillForm />
+      <NewSkillForm addSkill={addSkill}></NewSkillForm>
     </div>
 
   );
